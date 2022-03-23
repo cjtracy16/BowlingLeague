@@ -1,0 +1,21 @@
+﻿@{
+}
+@* Makes it easy to ienumerate through *@
+
+@model IEnumerable<Team>
+
+<div class="btn-block mt-3 gap-3 text-center">
+    <div class="mb-5 font-weight-bolder text-byu">
+        <h4>Teams:</h4>
+    </div>
+    <a asp-controller="Home" asp-action="Index" asp-route-teamID="" asp-route-pageNum="1" class="btn btn-outline-secondary btn-md btn-category p-2 mb-2">All Teams</a><br />
+    <div class="text-center">
+
+    @foreach (Team t in Model)
+    {
+    <a asp-controller="Home" asp-action="Index" asp-route-teamID="@t.TeamID" asp-route-pageNum="1"
+        class="btn btn-md btn-category p-2 mb-2 @(ViewBag.SelectedType == @t.TeamID ? "color-byu" : "btn-outline-secondary")">@t.TeamName</a><br />
+    }
+    </div>
+</div>
+

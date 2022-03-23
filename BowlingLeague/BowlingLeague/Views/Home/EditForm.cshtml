@@ -1,0 +1,76 @@
+﻿@{
+    ViewData["Title"] = "Update Bowler";
+}
+
+@model Bowler
+
+<h1 class="card-title text-byu mt-4">Update Bowler Info</h1>
+
+<div>
+
+    <form method="post" asp-action="EditForm">
+        <div class="form-group">
+            <label asp-for="BowlerID">ID:</label>
+            <input asp-for="BowlerID" value="@Model.BowlerID" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="BowlerFirstName">First Name:</label>
+            <input class="form-control" asp-for="BowlerFirstName" value="@Model.BowlerFirstName" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="BowlerMiddleInit">Middle Initial:</label>
+            <input class="form-control" asp-for="BowlerMiddleInit" value="@Model.BowlerMiddleInit" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="BowlerLastName">Last Name:</label>
+            <input class="form-control" asp-for="BowlerLastName" value="@Model.BowlerLastName" /><br />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="BowlerAddress">Address:</label>
+            <input class="form-control" asp-for="BowlerAddress" value="@Model.BowlerAddress" /><br />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="BowlerCity">City:</label>
+            <input class="form-control" asp-for="BowlerCity" value="@Model.BowlerCity" /><br />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="BowlerState">State:</label>
+            <input class="form-control" asp-for="BowlerState" value="@Model.BowlerState" maxlength="2" /><br />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="BowlerZip">Zip Code:</label>
+            <input class="form-control" asp-for="BowlerZip" value="@Model.BowlerZip" /><br />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="BowlerPhoneNumber">Phone Number:</label>
+            <input class="form-control" asp-for="BowlerPhoneNumber" value="@Model.BowlerPhoneNumber" /><br />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="TeamID">Team:</label>
+            <select class="form-control" asp-for="TeamID" value="@Model.TeamID">
+                <option value="1">Marlins</option>
+                <option value="2">Sharks</option>
+                <option value="3">Terrapins</option>
+                <option value="4">Barracudas</option>
+                <option value="5">Dolphins</option>
+                <option value="6">Orcas</option>
+                <option value="7">Manatees</option>
+                <option value="8">Swordfish</option>
+                <option value="9">Huckleberrys</option>
+                <option value="10">MintJuleps</option>
+            </select><br />
+        </div>
+
+        <button class="btn btn-outline-primary btn-primary" type="submit">Submit</button>
+    </form>
+
+</div>

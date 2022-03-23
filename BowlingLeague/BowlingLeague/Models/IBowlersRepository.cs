@@ -8,5 +8,12 @@ namespace BowlingLeague.Models
     public interface IBowlersRepository
     {
         IQueryable<Bowler> Bowlers { get;}
+
+        //Edit
+        public void SaveBowler(Bowler b);
+        //Create
+        public void CreateBowler(Bowler b);
+        //Delete
+        public void DeleteBowler(Bowler b);
     }
 }

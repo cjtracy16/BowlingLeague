@@ -8,10 +8,14 @@ C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin
 C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin\Debug\netcoreapp3.1\BowlingLeague.pdb
 C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin\Debug\netcoreapp3.1\BowlingLeague.Views.dll
 C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin\Debug\netcoreapp3.1\BowlingLeague.Views.pdb
+C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
@@ -20,6 +24,8 @@ C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin
 C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
 C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
@@ -44,7 +50,13 @@ C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\obj
 C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\obj\Debug\netcoreapp3.1\BowlingLeague.TagHelpers.input.cache
 C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\obj\Debug\netcoreapp3.1\BowlingLeague.TagHelpers.output.cache
 C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\obj\Debug\netcoreapp3.1\BowlingLeague.RazorCoreGenerate.cache
+C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\obj\Debug\netcoreapp3.1\Razor\Views\Home\Bowlers.cshtml.g.cs
+C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\obj\Debug\netcoreapp3.1\Razor\Views\Home\Delete.cshtml.g.cs
+C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\obj\Debug\netcoreapp3.1\Razor\Views\Home\EditForm.cshtml.g.cs
 C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\obj\Debug\netcoreapp3.1\Razor\Views\Home\SignUpForm.cshtml.g.cs
+C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\obj\Debug\netcoreapp3.1\Razor\Views\Shared\BowlerSummary.cshtml.g.cs
+C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Teams\Default.cshtml.g.cs
 C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\Conner Tracy\source\repos\BowlingLeague\BowlingLeague\BowlingLeague\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs

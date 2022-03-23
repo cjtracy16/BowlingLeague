@@ -1,0 +1,26 @@
+﻿@{
+}
+@model Bowler
+
+<div class="card card-outline-primary m-2 p-1">
+
+    @* List out the contact information for each Bowler *@
+    <div class="color-byu p-1">
+        <div class="row">
+            <h4 class="col p-2 pl-4 m-3">@Model.BowlerFirstName @Model.BowlerMiddleInit @Model.BowlerLastName</h4>
+            
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col">
+            <ul class="bookInfoList mt-2 text-byu">
+                <li class="list-unstyled mb-1 bookInfoText"><b>Team:</b> @Model.Team.TeamName</li>
+                <li class="list-unstyled mb-1 bookInfoText"><b>Address:</b></li>
+                <li class="list-unstyled mb-1 bookInfoText">@Model.BowlerAddress</li>
+                <li class="list-unstyled mb-1 bookInfoText">@Model.BowlerCity @Model.BowlerState, @Model.BowlerZip</li>
+                <li class="list-unstyled mb-1 bookInfoText"><b>Phone:</b> @Model.BowlerPhoneNumber</li>
+            </ul>
+        </div>
+    </div>
+</div>

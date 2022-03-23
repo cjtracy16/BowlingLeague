@@ -2,21 +2,34 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Bowlers</h1>
+@model BowlerViewModel
+
+<div class="text-left mb-3">
+    <h3 class="display-4 pt-1 text-byu"><b>Bowler Contact Information</b></h3><br />
+    @if (ViewBag.Count < 2)
+    {
+        @foreach (Team t in ViewBag.Teams)
+        {
+            <h4 class="text-byu mb-2">Team: @t.TeamName</h4>
+        }
+    }
+    else
+    {
+        <h4 class="text-byu mb-2">All Bowlers</h4>
+    }
+
+
 </div>
 
-@model List<Bowler>
+@foreach (Bowler b in Model.Bowlers)
+{
+    //Go to BookSummary to pull in the Books in database
+    <partial name="BowlerSummary" model="b" />
+}
 
-<h1>Bowlers</h1>
+@*Create buttons at the bottom of the page. Highlight the button selected*@
+<div page-model="@Model.BowlerInfo" page-action="Index" page-classes-enabled="true"
+     page-class="btn" page-class-normal="btn-outline-dark"
+     page-class-selected="btn-primary" class="btn-group pull-right m-1">
+</div>
 
-<ul>
-    @foreach (var b in Model)
-    {
-        <li>@b.BowlerID</li>
-        <li>@b.BowlerFirstName @b.BowlerMiddleInit @b.BowlerLastName</li>
-        <li>@b.BowlerAddress</li>
-        <li>@b.BowlerCity @b.BowlerState, @b.BowlerZip</li>
-        <li>@b.BowlerPhoneNumber</li>
-    }
-</ul>
