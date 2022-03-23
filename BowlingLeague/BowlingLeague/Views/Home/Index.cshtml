@@ -3,6 +3,20 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Bowlers</h1>
 </div>
+
+@model List<Bowler>
+
+<h1>Bowlers</h1>
+
+<ul>
+    @foreach (var b in Model)
+    {
+        <li>@b.BowlerID</li>
+        <li>@b.BowlerFirstName @b.BowlerMiddleInit @b.BowlerLastName</li>
+        <li>@b.BowlerAddress</li>
+        <li>@b.BowlerCity @b.BowlerState, @b.BowlerZip</li>
+        <li>@b.BowlerPhoneNumber</li>
+    }
+</ul>

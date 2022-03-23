@@ -11,13 +11,20 @@ namespace BowlingLeague.Controllers
 {
     public class HomeController : Controller
     {
-        public HomeController()
+        private IBowlersRepository repo { get; set; }
+        
+        //Constructor
+        public HomeController(IBowlersRepository temp)
         {
+            repo = temp;
         }
 
+        //Call Index and pass list of Bowlers
         public IActionResult Index()
         {
-            return View();
+            var x = repo.Bowlers.ToList();
+
+            return View(x);
         }
     }
 }
