@@ -70,6 +70,8 @@ namespace BowlingLeague.Controllers
         [HttpGet]
         public IActionResult SignUpForm()
         {
+            ViewBag.Teams = teamRepo.Teams.ToList();
+
             return View();
         }
 
@@ -85,6 +87,8 @@ namespace BowlingLeague.Controllers
         [HttpGet]
         public IActionResult EditForm(int bowlerId)
         {
+            ViewBag.Teams = teamRepo.Teams.ToList();
+
             var bowler = bowlerRepo.Bowlers.Single(x => x.BowlerID == bowlerId);
 
             return View("EditForm", bowler);
